@@ -19,6 +19,8 @@
 		63E9FE7918A8053B00779E31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9FE6118A8053A00779E31 /* UIKit.framework */; };
 		63E9FE8118A8053B00779E31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63E9FE7F18A8053B00779E31 /* InfoPlist.strings */; };
 		63E9FE8318A8053B00779E31 /* ResizeHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9FE8218A8053B00779E31 /* ResizeHWTests.m */; };
+		63E9FE9818A807A700779E31 /* resizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9FE9618A807A700779E31 /* resizeViewController.m */; };
+		63E9FE9918A807A700779E31 /* resizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E9FE9718A807A700779E31 /* resizeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		63E9FE7E18A8053B00779E31 /* ResizeHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizeHWTests-Info.plist"; sourceTree = "<group>"; };
 		63E9FE8018A8053B00779E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63E9FE8218A8053B00779E31 /* ResizeHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeHWTests.m; sourceTree = "<group>"; };
+		63E9FE9518A807A700779E31 /* resizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resizeViewController.h; sourceTree = "<group>"; };
+		63E9FE9618A807A700779E31 /* resizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resizeViewController.m; sourceTree = "<group>"; };
+		63E9FE9718A807A700779E31 /* resizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = resizeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		63E9FE5118A8053A00779E31 = {
 			isa = PBXGroup;
 			children = (
+				63E9FE9518A807A700779E31 /* resizeViewController.h */,
+				63E9FE9618A807A700779E31 /* resizeViewController.m */,
+				63E9FE9718A807A700779E31 /* resizeViewController.xib */,
 				63E9FE6318A8053A00779E31 /* ResizeHW */,
 				63E9FE7C18A8053B00779E31 /* ResizeHWTests */,
 				63E9FE5C18A8053A00779E31 /* Frameworks */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E9FE9918A807A700779E31 /* resizeViewController.xib in Resources */,
 				63E9FE6818A8053A00779E31 /* InfoPlist.strings in Resources */,
 				63E9FE7018A8053A00779E31 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E9FE6A18A8053A00779E31 /* main.m in Sources */,
+				63E9FE9818A807A700779E31 /* resizeViewController.m in Sources */,
 				63E9FE6E18A8053A00779E31 /* ResizeHWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +452,7 @@
 				63E9FE8818A8053B00779E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E9FE8918A8053B00779E31 /* Build configuration list for PBXNativeTarget "ResizeHWTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				63E9FE8B18A8053B00779E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
